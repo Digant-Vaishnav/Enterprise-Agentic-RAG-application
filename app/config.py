@@ -14,7 +14,7 @@ class Settings:
     GROQ_FALLBACK_API_KEY = os.getenv("GROQ_FALLBACK_API_KEY")
 
     PORTKEY_API_KEY = os.getenv("PORTKEY_API_KEY")
-    GROQ_SLUG =  "rag1"     # primary: @rag/llama-3.3-70b-versatile
-    GROQ_SLUG_2 = "brag"  # fallback: @brag/llama-3.1-8b-instant
+    GROQ_SLUG =  "rag2"     # primary: @rag/llama-3.3-70b-versatile
+    GROQ_SLUG_2 = "rag"  # fallback: @brag/llama-3.1-8b-instant
 
 settings = Settings()
